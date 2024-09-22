@@ -7,10 +7,10 @@ int main(){
     // Program to print Half pyramid number pattern
 
 //      1   
-//      2 2 
-//      3 3 3 
-//      4 4 4 4 
-//      5 5 5 5 5
+//      1 2 
+//      1 2 3 
+//      1 2 3 4 
+//      1 2 3 4 5
 
     int num;
     cout << "Enter a number: " << endl;
@@ -19,7 +19,7 @@ int main(){
     cout << "*************************************************" << endl;
     for(int i = 1; i<=num; i++){
         for(int j = 1; j <= i; j++){
-            cout << i << " ";
+            cout << j << " ";
         }
         cout << endl;
     }
