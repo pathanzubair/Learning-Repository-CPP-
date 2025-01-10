@@ -2,26 +2,44 @@
 #include <stdint.h>
 using namespace std;
 
-
+// SLIGHTLY OPTIMIZED CODE . Time Complexity : O(n2)
 int maxSubArraySum(int *arr, int n){
     int max_sum = INT16_MIN;
 
     for(int start = 0; start < n; start++){
-
+        int curr_sum = 0;
         for(int end = start; end < n; end++){
-            int curr_sum = 0;
-            
-            for(int i = start; i <=  end; i++){
-                curr_sum += arr[i];
-            }
-            // cout << "(" << curr_sum << ")" << "," ;
+            curr_sum += arr[end];
             max_sum = max(max_sum, curr_sum);
+            // cout << "(" << curr_sum << ")" << "," ;
         }
 
         // cout << endl;
     }
     return max_sum;
 }
+
+//  Time Complexity : O(n3)
+
+// int maxSubArraySum(int *arr, int n){
+//     int max_sum = INT16_MIN;
+
+//     for(int start = 0; start < n; start++){
+
+//         for(int end = start; end < n; end++){
+//             int curr_sum = 0;
+            
+//             for(int i = start; i <=  end; i++){
+//                 curr_sum += arr[i];
+//             }
+//             // cout << "(" << curr_sum << ")" << "," ;
+//             max_sum = max(max_sum, curr_sum);
+//         }
+
+//         // cout << endl;
+//     }
+//     return max_sum;
+// }
 
 int main(){
     cout << "******** Max Subarray Sum ********" << endl; 
