@@ -38,5 +38,6 @@ int main(){
     }
     cout << endl;
     printSubArray(arr, n);
+    cout << endl;
     return 0;
 }
