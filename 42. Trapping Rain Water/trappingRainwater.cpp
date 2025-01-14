@@ -41,17 +41,11 @@ int totalVolume = 0;
             totalVolume += curr_sum;
         }    
     }
-
     return totalVolume;
-
-
 }
 
 
-
-
 int main(){
-
     
     cout << endl;
     cout << endl;
@@ -77,7 +71,6 @@ int main(){
     
     // rightMaxHeight(height,n);
     // cout << endl;
-
 
     return 0;
 }
