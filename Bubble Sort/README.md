@@ -16,12 +16,12 @@ The bubble sort algorithm works by repeatedly comparing adjacent elements of the
     * Worst case: O(n<sup>2</sup>) - This occurs when the list is in reverse order.
 * Space complexity: O(1) - Bubble sort only uses a constant amount of additional space.
 
-## Advantages
+### Advantages
 
 * Simple to understand and implement.
 * Efficient for small lists.
 
-## Disadvantages
+### Disadvantages
 
 * Inefficient for large lists due to its O(n^2) time complexity.
 * There are more efficient sorting algorithms available, such as merge sort and quicksort.
