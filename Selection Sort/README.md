@@ -105,8 +105,6 @@ int main(){
 }
 
 
-```
-
 <!-- tabs:end -->
 
 <!-- solution:end -->
