@@ -1,4 +1,6 @@
 # In-Built Sorting Function::sort (C++)
+## sort(start, end) --> To sort in Ascending order
+## sort(start, end, greater<int>()) --> To sort in Decending order
 
 The `std::sort` function in C++ is an inbuilt function provided in the `<algorithm>` library. It is a highly optimized sorting function that uses a hybrid of Quick Sort, Heap Sort, and Insertion Sort, known as Introsort, to achieve optimal performance.
 
