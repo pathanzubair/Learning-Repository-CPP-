@@ -75,6 +75,8 @@ void insertionSortAlgorithm(int *arr, int n){
             swap(arr[j], arr[j+1]);
             j--;
         }
+        arr[j+1] = curr;
+        
     }
     printArray(arr,n);
 
