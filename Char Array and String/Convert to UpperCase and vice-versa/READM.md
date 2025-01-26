@@ -4,6 +4,8 @@
 
 using namespace std;
 
+
+// Uppercase Code
 void toUpperCase(char word[], int n){
     for(int i = 0; i < strlen(word); i++){
         if(word[i] >= 'a' && word[i] <= 'z'){
@@ -13,6 +15,8 @@ void toUpperCase(char word[], int n){
     cout << "The Uppercase version of the entered word is: " << word;
 
 }
+
+// Lowercase Code
 void toLowerCase(char word[], int n){
     for(int i = 0; i < strlen(word); i++){
         if(word[i] >= 'A' && word[i] <= 'Z'){
